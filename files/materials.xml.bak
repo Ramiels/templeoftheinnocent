@@ -293,6 +293,25 @@ texture_file="mods/templeoftheinnocent/files/materials_gfx/gatestone.png">
 </Graphics>
 
   </CellDataChild>
+  
+  <CellData
+    name="innocence_wool_bloody"
+    ui_name="bloody wool"
+    wang_color="FF611a4d"
+    cell_type="liquid"
+    liquid_static="1"
+    stickyness="14"
+    burnable="0"
+    density="10"
+    durability="14"
+    >
+
+<Graphics
+color="FF611a4d"
+texture_file="mods/templeoftheinnocent/files/materials_gfx/wool_bloody.png">
+</Graphics>
+
+  </CellData>
  
 <Reaction probability="200"
   input_cell1="innocence_gatestone"    input_cell2="innocence_gateopener"
@@ -302,8 +321,8 @@ texture_file="mods/templeoftheinnocent/files/materials_gfx/gatestone.png">
 </Reaction>
 
 <Reaction probability="9999"
-  input_cell1="innocence_gatestone"    input_cell2="innocence_magicgas"
-  output_cell1="innocence_magicgas"  output_cell2="innocence_magicgas"
+  input_cell1="innocence_gatestone"    input_cell2="innocence_magicgas"  input_cell3="innocence_gatestone"    
+  output_cell1="innocence_magicgas"  output_cell2="innocence_magicgas"  output_cell3="air"
   blob_radius1="3"  blob_radius2="3"
   >
 </Reaction>
