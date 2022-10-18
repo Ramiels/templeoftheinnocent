@@ -294,24 +294,26 @@ texture_file="mods/templeoftheinnocent/files/materials_gfx/gatestone.png">
 
   </CellDataChild>
   
-  <CellData
-    name="innocence_wool_bloody"
-    ui_name="bloody wool"
-    wang_color="FF611a4d"
-    cell_type="liquid"
-    liquid_static="1"
-    stickyness="14"
-    burnable="0"
-    density="10"
-    durability="14"
+  <CellDataChild
+    _parent="steel"
+    _inherit_reactions="0"
+    name="innocence_magicsteel"
+    ui_name="magic steel"
+    wang_color="FF60ff1b"
+	tags="[box2d],[matter_eater_ignore_list],[indestructible],[sunbaby_ignore_list]"
+	hp="1000000"
+	durability="16"
+	cell_type="solid"
+	liquid_sand="0"
+	platform_type="0"
     >
 
 <Graphics
 color="FF611a4d"
-texture_file="mods/templeoftheinnocent/files/materials_gfx/wool_bloody.png">
+texture_file="mods/templeoftheinnocent/files/materials_gfx/magicsteel.png">
 </Graphics>
 
-  </CellData>
+  </CellDataChild>
  
 <Reaction probability="200"
   input_cell1="innocence_gatestone"    input_cell2="innocence_gateopener"
