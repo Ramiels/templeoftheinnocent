@@ -304,7 +304,6 @@ texture_file="mods/templeoftheinnocent/files/materials_gfx/gatestone.png">
 	hp="1000000"
 	durability="16"
 	cell_type="solid"
-	liquid_sand="0"
 	platform_type="0"
     >
 
@@ -314,7 +313,13 @@ texture_file="mods/templeoftheinnocent/files/materials_gfx/magicsteel.png">
 </Graphics>
 
   </CellDataChild>
- 
+
+  <CellDataChild
+    _parent="innocence_magicsteel"
+    name="innocence_magicsteel_copy"
+    wang_color="FFff891b"
+  </CellDataChild> 
+
 <Reaction probability="200"
   input_cell1="innocence_gatestone"    input_cell2="innocence_gateopener"
   output_cell1="innocence_gatestone_melt"  output_cell2="air"
