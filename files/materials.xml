@@ -309,7 +309,23 @@ texture_file="mods/templeoftheinnocent/files/materials_gfx/gatestone.png">
 
 <Graphics
 color="FF611a4d"
-texture_file="mods/templeoftheinnocent/files/materials_gfx/magicsteel.png">
+texture_file="mods/templeoftheinnocent/files/materials_gfx/magicsteel.png"
+
+	pixel_all_around="ff4c6985"
+	
+	pixel_lonely="ff4c6985"
+	pixel_top_right="ff4c6985"
+	pixel_bottom_left="ff4c6985"
+	
+	pixel_left="ff4c6985"
+	pixel_top_left="ff4c6985"
+	pixel_top="ff4c6985"
+	
+	pixel_right="ff4c6985"
+	pixel_bottom_right="ff4c6985"
+	pixel_bottom="ff4c6985"
+	
+>
 </Graphics>
 
   </CellDataChild>
